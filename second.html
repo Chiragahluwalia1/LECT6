@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            background-image: url('pp.png.jpg');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Job Application</h1>
+    
+    <form >
+        <label for="name">Name:</label>
+        <br/>
+        <input type="text" name="Name:" id="name" placeholder="enter your full name">
+        <br/>
+    
+        <label for="email">Email:</label>
+        <br/>
+        <input type="text" name="Email:" id="email"placeholder="enter your current email">
+        <br/>
+    
+        <label for="phone">Phone:</label>
+        <br/>
+        <input type="text" name="Phone:" id="phone"placeholder="enter your working phone number">
+        <br/>
+        <br/>
+         <label for="selectfile">Resume:</label>
+         <br/>
+        <input type="file" name="selectfile" id="selectfile">
+        <br/>
+        <br/>
+        <label for="exp">Experience(years):</label>
+        <br/>
+        <textarea name="exp" id="exp" cols="2" rows="1"></textarea>
+        <br/>
+        <br/>
+        <fieldset>
+            <legend>Skills: </legend>
+            <label for="check1">CSS</label>
+            <br/>
+             <input type="checkbox" name="check1" id="check1">
+             <br/>
+             <label for="check2">HTML</label>
+            <br/>
+             <input type="checkbox" name="check2" id="check2">
+             <br/>
+             <label for="check1">JS</label>
+            <br/>
+             <input type="checkbox" name="check3" id="check3">
+             <br/>
+    
+        </fieldset>
+        <br/>
+        <br/>
+        <label for="edu">Higher Education:</label>
+        <select name="edu" id="edu">
+            <option value="high school">High school</option>
+            <option value="college">Colege</option>
+            <option value="university">University</option>
+            <option value="other">Other</option>
+            </select>
+            <br/>
+        <br/>
+        <h3>Availablity</h3>
+        <label for="type1">Full-time</label>
+        <br/>
+        <input type="radio" name="type1" id="type1">
+        <br/>
+        <label for="type2">Part-time</label>
+        <br/>
+        <input type="radio" name="type2" id="type2">
+        <br/>
+        <br/>
+         <label for="comments1">Additional Comments:</label>
+         <br/>
+        <textarea name="comments" id="comments1" cols="30" rows="10"></textarea>
+        <button>Submit</button>
+
+
+    </form>
+</body>
+</html>
